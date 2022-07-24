@@ -1,0 +1,15 @@
+.funcButton-button {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.2vw;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.funcButton-button:hover {
+  background-color: rgba(0, 0, 0, 1);
+}

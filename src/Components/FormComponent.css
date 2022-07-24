@@ -1,0 +1,56 @@
+.form-base {
+  display: flex;
+  justify-content: center;
+  margin: 5vw;
+}
+
+.form-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 2vw;
+  color: white;
+}
+
+.form-form > label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-form > label > input {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 0.5vw;
+}
+
+.form-button {
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.7vw;
+  width: 70%;
+  margin: 2vh auto 0 auto;
+}
+.form-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-checkboxLine {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}

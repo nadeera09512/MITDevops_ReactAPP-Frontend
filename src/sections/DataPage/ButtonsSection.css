@@ -1,0 +1,5 @@
+.funcButton-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 4vh;
+}

@@ -1,0 +1,10 @@
+.dataPage-title {
+  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 3.7rem;
+  font-size: 1.6rem;
+  display: fixed;
+  color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+}
