@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: reactfrontend-service
+spec:
+  type: ClusterIP
+  selector:
+    react: frontend
+  ports:
+    - port: 3000
+      targetPort: 3000
+     # nodePort: 30010

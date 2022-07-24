@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    react: frontend
+  name: reactappfrontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      react: frontend
+  template:
+    metadata:
+      labels:
+        react: frontend
+    spec:
+      containers:
+      - image: nadeera94/reactappfrontend:v1.0
+        name: react-frontend
+        ports:
+        - containerPort: 3000
+        
