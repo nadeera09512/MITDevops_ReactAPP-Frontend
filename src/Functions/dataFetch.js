@@ -22,7 +22,7 @@ const fetchStudentData = async () => {
 
 const removeStudentData = async (id) => {
   return await axios
-    .delete(`${routes.javaDeleteStudentsRoute().substring(0, 20)}${id}`, {
+    .delete(`${routes.javaDeleteStudentsRoute().substring(0, routes.javaDeleteStudentsRoute().length-3)}${id}`, {
       headers: {
         'Content-Type': 'application/json;charset=UTF-8',
         'Access-Control-Allow-Origin': '*',
