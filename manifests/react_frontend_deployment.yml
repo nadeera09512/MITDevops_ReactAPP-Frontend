@@ -15,7 +15,7 @@ spec:
         react: frontend
     spec:
       containers:
-      - image: nadeera94/reactappfrontend:v1.1
+      - image: nadeera94/reactappfrontend:v1.2
         name: react-frontend
         ports:
         - containerPort: 3000
