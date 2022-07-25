@@ -1,0 +1,22 @@
+.dataBaseButton-container {
+  position: fixed;
+  top: 1vh;
+  right: 2vw;
+  z-index: 1;
+}
+
+.dataBaseButton-button {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.2vw;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.dataBaseButton-button:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
