@@ -19,7 +19,7 @@ function DataPage() {
   }, [studentData]);
   return (
     <div>
-      <TitleComponent title={'All Students'} />
+      <TitleComponent title={'Students List'} />
 
       {studentData ? <DataTable tableData={studentData} /> : <LoadingPage />}
       <ButtonsSection />
